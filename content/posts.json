@@ -1,0 +1,62 @@
+[
+  {
+    "slug": "en-dan-is-het-boompjes-planten",
+    "title": "En dan is het boompjes planten",
+    "date": "2026-02-11",
+    "label": "Winter 2025–2026",
+    "excerpt": "Alle 200 nieuwe boompjes staan in de grond. Een terugblik op de plantdagen in december en januari, met scheppen, bamboestokken en veel enthousiasme.",
+    "hero": "boompjes-planten-1.jpg",
+    "heroAlt": "Planters nemen een pauze in het dennenbos",
+    "gallery": [["boompjes-planten-2.jpg", "Plantdag in het bos"]]
+  },
+  {
+    "slug": "de-200-boompjes-zijn-gearriveerd",
+    "title": "De 200 boompjes zijn gearriveerd",
+    "date": "2025-12-05",
+    "label": "5 december 2025",
+    "excerpt": "Samen met Harm van Bosgroep Zuid bepaalden we waar de nieuwe boompjes precies mogen komen: esdoorn, beukhaag, wintereik, hazelaar en wilde kers.",
+    "hero": "boompjes-gearriveerd.jpg",
+    "heroAlt": "Twee mensen met schep in een mistig bos",
+    "gallery": []
+  },
+  {
+    "slug": "stoeltjes-van-omgezaagde-boom",
+    "title": "Fijn zitten op stoeltjes van omgezaagde boom",
+    "date": "2025-09-06",
+    "label": "6 september 2025",
+    "excerpt": "De strijd tegen de rododendron, stoeltjes van omgezaagd hout en nieuw leven in oude stobbes. Een dag vol creativiteit en frisse lucht.",
+    "hero": "planten-hero.jpg",
+    "heroAlt": "Lunchpauze aan een picknicktafel in het bos",
+    "gallery": []
+  },
+  {
+    "slug": "toekomstbomen",
+    "title": "Toekomstbomen",
+    "date": "2025-05-23",
+    "label": "23 mei 2025",
+    "excerpt": "Bomen die we vandaag kiezen met het oog op morgen: de ruggengraat van het bos voor de komende decennia.",
+    "hero": "toekomstbomen-1.jpg",
+    "heroAlt": "Bloeiende rododendrons in het bos",
+    "gallery": [["toekomstbomen-2.jpg", "Toekomstbomen in het bos"]]
+  },
+  {
+    "slug": "stap-voor-stap-naar-klimaatbestendig-bos",
+    "title": "Stap voor stap naar klimaatbestendig bos",
+    "date": "2023-09-02",
+    "label": "2 september 2023",
+    "excerpt": "Het eerste zaagweekend: rododendrons gefaseerd verwijderen en ruimte maken voor veerkrachtige, inheemse soorten.",
+    "hero": "zaagweekend.jpg",
+    "heroAlt": "Groen bladerdak van het bos",
+    "gallery": []
+  },
+  {
+    "slug": "bosperceel-in-kaart",
+    "title": "Bosperceel in kaart",
+    "date": "2023-07-01",
+    "label": "Juli 2023",
+    "excerpt": "Met GPS, meetlint en houten paaltjes werd het bosperceel nauwkeurig in kaart gebracht.",
+    "hero": "stoeltjes.jpg",
+    "heroAlt": "Bladerdak van het bos",
+    "gallery": []
+  }
+]
