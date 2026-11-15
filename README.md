@@ -1,13 +1,18 @@
 # vanwezelbos.nl
 
-Statische site (geen WordPress, geen build-stap op Vercel). Alles in `public/` wordt geserveerd.
+Statische site op Vercel. Berichten schrijf je in het beheerscherm: **vanwezelbos.nl/admin**.
 
-## Nieuw bericht plaatsen
-1. Zet foto's (liefst max. 1800px breed, JPG) in `public/img/`.
-2. Voeg een item toe aan `content/posts.json`.
-3. Maak `content/posts/<slug>.html` met de tekst (`<p>`, `<h3>`, `<strong>`).
-4. Commit + push (of bewerk direct op github.com). Vercel draait zelf `python3 scripts/build.py` en deployt automatisch.
+## Berichten (voor wie schrijft)
+1. Ga naar `vanwezelbos.nl/admin` en klik op *Inloggen met GitHub*.
+2. Klik op *Bericht* → vul categorie, datum, titel, afbeelding en tekst in.
+3. Controleer rechts de preview (Desktop / Tablet / Telefoon) en klik op *Publiceren*.
+4. Na ongeveer een minuut staat het bericht live.
 
-## Deployen
-Importeer de GitHub-repo in Vercel (framework: *Other*, geen build command, output directory `public`; staat al in `vercel.json`).
-Zet daarna het domein `vanwezelbos.nl` aan het Vercel-project en wijs de DNS ernaartoe.
+## Techniek
+- `content/posts/*.md` — de berichten (Markdown met kopregel). Het beheerscherm leest en schrijft deze bestanden.
+- `scripts/build.py` — maakt er HTML van in `public/`; Vercel draait dit bij elke wijziging.
+- `public/admin/` — Decap CMS (`config.yml` = velden, `preview.js` = apparaat-preview).
+- `api/auth.js` + `api/callback.js` — GitHub-inlog voor het beheerscherm.
+  Vereist in Vercel (Settings → Environment Variables): `GITHUB_CLIENT_ID` en `GITHUB_CLIENT_SECRET`
+  van een GitHub OAuth App met callback `https://vanwezelbos.nl/api/callback`.
+- Foto's: `public/img/`. Bij de build worden grote foto's automatisch verkleind (Pillow, indien beschikbaar).

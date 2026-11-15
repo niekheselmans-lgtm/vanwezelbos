@@ -28,3 +28,19 @@
   }, { threshold: 0.12 });
   items.forEach(function (el, i) { el.style.transitionDelay = (i % 3) * 90 + 'ms'; io.observe(el); });
 })();
+
+(function () {
+  var chips = document.querySelectorAll('.chip');
+  if (!chips.length) return;
+  chips.forEach(function (chip) {
+    chip.addEventListener('click', function () {
+      var f = chip.getAttribute('data-filter');
+      chips.forEach(function (c) { c.classList.toggle('on', c === chip); });
+      document.querySelectorAll('.cards .card').forEach(function (card) {
+        var show = f === 'all' || card.getAttribute('data-cat') === f;
+        card.hidden = !show;
+        if (show) card.classList.add('in');
+      });
+    });
+  });
+})();

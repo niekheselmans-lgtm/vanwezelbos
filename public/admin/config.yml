@@ -1,0 +1,69 @@
+backend:
+  name: github
+  repo: niekheselmans-lgtm/vanwezelbos
+  branch: main
+  base_url: https://vanwezelbos.nl
+  auth_endpoint: api/auth
+  commit_messages:
+    create: "Nieuw bericht: {{slug}}"
+    update: "Bericht aangepast: {{slug}}"
+    delete: "Bericht verwijderd: {{slug}}"
+    uploadMedia: "Foto toegevoegd: {{path}}"
+    deleteMedia: "Foto verwijderd: {{path}}"
+
+locale: nl
+publish_mode: simple
+media_folder: public/img
+public_folder: /img
+site_url: https://vanwezelbos.nl
+display_url: https://vanwezelbos.nl
+logo_url: /favicon.svg
+
+collections:
+  - name: posts
+    label: Berichten
+    label_singular: Bericht
+    description: Blogberichten voor vanwezelbos.nl
+    folder: content/posts
+    extension: md
+    format: frontmatter
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}} · {{category}} · {{date}}"
+    sortable_fields: ["date", "title", "category"]
+    view_filters:
+      - label: Werkzaamheden
+        field: category
+        pattern: werkzaamheden
+      - label: Algemeen
+        field: category
+        pattern: algemeen
+    fields:
+      - label: Categorie
+        name: category
+        widget: select
+        default: werkzaamheden
+        options:
+          - { label: Werkzaamheden, value: werkzaamheden }
+          - { label: Algemeen, value: algemeen }
+      - label: Datum
+        name: date
+        widget: datetime
+        time_format: false
+        date_format: "DD-MM-YYYY"
+        format: "YYYY-MM-DD"
+        picker_utc: true
+      - label: Titel
+        name: title
+        widget: string
+      - label: Afbeelding
+        name: image
+        widget: image
+        hint: "De hoofdfoto bovenaan het bericht. Liggend (breed) werkt het mooist."
+        choose_url: false
+      - label: Tekst
+        name: body
+        widget: markdown
+        hint: "Schrijf gewoon je verhaal. Tussenkopjes maak je met de knop H2/H3, extra foto's voeg je toe met het plaatje-icoon."
+        buttons: [bold, italic, link, heading-two, heading-three, quote, bulleted-list, numbered-list]
+        editor_components: [image]
