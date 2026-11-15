@@ -2,7 +2,7 @@ backend:
   name: github
   repo: niekheselmans-lgtm/vanwezelbos
   branch: main
-  base_url: https://vanwezelbos.nl
+  base_url: https://www.vanwezelbos.nl
   auth_endpoint: api/auth
   commit_messages:
     create: "Nieuw bericht: {{slug}}"
@@ -15,8 +15,8 @@ locale: nl
 publish_mode: simple
 media_folder: public/img
 public_folder: /img
-site_url: https://vanwezelbos.nl
-display_url: https://vanwezelbos.nl
+site_url: https://www.vanwezelbos.nl
+display_url: https://www.vanwezelbos.nl
 logo_url: /favicon.svg
 
 collections:

@@ -14,5 +14,5 @@ Statische site op Vercel. Berichten schrijf je in het beheerscherm: **vanwezelbo
 - `public/admin/` — Decap CMS (`config.yml` = velden, `preview.js` = apparaat-preview).
 - `api/auth.js` + `api/callback.js` — GitHub-inlog voor het beheerscherm.
   Vereist in Vercel (Settings → Environment Variables): `GITHUB_CLIENT_ID` en `GITHUB_CLIENT_SECRET`
-  van een GitHub OAuth App met callback `https://vanwezelbos.nl/api/callback`.
+  van een GitHub OAuth App met callback `https://vanwezelbos.nl/api/callback` (Vercel stuurt door naar www).
 - Foto's: `public/img/`. Bij de build worden grote foto's automatisch verkleind (Pillow, indien beschikbaar).

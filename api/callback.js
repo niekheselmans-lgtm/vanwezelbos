@@ -1,13 +1,13 @@
 // Stap 2: GitHub stuurt de bezoeker terug. Wissel de code in voor een token
 // en geef dat door aan het beheerscherm (Decap CMS) dat in het hoofdvenster draait.
-const SITE = 'https://vanwezelbos.nl';
+const SITES = ['https://www.vanwezelbos.nl', 'https://vanwezelbos.nl'];
 
 function page(status, payload) {
   const message = `authorization:github:${status}:${JSON.stringify(payload)}`;
   return `<!doctype html><html><body><p>Even geduld…</p><script>
 (function () {
   var message = ${JSON.stringify(message)};
-  var allowed = [${JSON.stringify(SITE)}, 'http://localhost:4173', 'http://localhost:8080'];
+  var allowed = ${JSON.stringify(SITES)}.concat(['http://localhost:4173']);
   function receive(e) {
     if (allowed.indexOf(e.origin) === -1) return;
     window.opener.postMessage(message, e.origin);

@@ -18,7 +18,7 @@ except Exception:  # pragma: no cover
 
 ROOT = Path(__file__).resolve().parent.parent
 PUB = ROOT / "public"
-SITE = "https://vanwezelbos.nl"
+SITE = "https://www.vanwezelbos.nl"
 NAME = "Het Van Wezelbos"
 DESC = ("Het Van Wezelbos is een familiebos dat stap voor stap wordt omgevormd tot een "
         "gezond, klimaatbestendig loofbos vol leven. Volg het beheerplan 2024–2050.")
