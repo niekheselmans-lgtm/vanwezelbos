@@ -80,12 +80,12 @@
     var body = md(get('body')) || '<div style="color:#888">Hier verschijnt je tekst…</div>';
     var hero = img
       ? '<div class="wrap post-hero"><img src="' + asset(img) + '" alt=""></div>'
-      : '<div class="wrap post-hero"><div style="height:260px;border-radius:18px;background:#dfe6d3;display:grid;place-items:center;color:#5d7a4a;font:500 1rem Inter,sans-serif">Nog geen afbeelding gekozen</div></div>';
+      : '<div class="wrap post-hero"><div style="height:260px;border-radius:18px;background:#dfe6d3;display:grid;place-items:center;color:#5d7a4a;font:700 1.05rem Carlito,Calibri,sans-serif">Nog geen afbeelding gekozen</div></div>';
     return '<!doctype html><html lang="nl"><head><meta charset="utf-8">' +
       '<meta name="viewport" content="width=device-width, initial-scale=1">' +
       '<base href="' + location.origin + '/">' +
       '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>' +
-      '<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">' +
+      '<link href="https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">' +
       '<link rel="stylesheet" href="/css/style.css"><style>.site-header{position:static}</style></head><body>' +
       '<header class="site-header"><div class="wrap bar"><span class="brand"><svg viewBox="0 0 32 32" width="26" height="26"><path d="M16 2 6 15h5l-4 7h6v6h6v-6h6l-4-7h5z" fill="currentColor"/></svg><span>Van Wezelbos</span></span></div></header>' +
       '<main><article class="post"><header class="post-head" style="padding-top:40px"><div class="wrap narrow">' +
@@ -112,20 +112,20 @@
       var dev = DEVICES.filter(function (d) { return d.id === self.state.device; })[0];
       var scale = Math.min(1, (this.state.avail - 8) / dev.w);
       var isPhone = dev.id === 'phone';
-      var bar = h('div', { style: { display: 'flex', gap: '8px', justifyContent: 'center', padding: '12px 8px', background: '#f1efe8', fontFamily: 'Inter, system-ui, sans-serif', position: 'sticky', top: 0, zIndex: 5 } },
+      var bar = h('div', { style: { display: 'flex', gap: '8px', justifyContent: 'center', padding: '12px 8px', background: '#f1efe8', fontFamily: 'Carlito, Calibri, sans-serif', position: 'sticky', top: 0, zIndex: 5 } },
         DEVICES.map(function (d) {
           var on = d.id === dev.id;
           return h('button', {
             key: d.id, type: 'button',
             onClick: function () { self.setState({ device: d.id }); },
-            style: { cursor: 'pointer', border: '1px solid ' + (on ? '#1c3326' : '#d6d1c2'), background: on ? '#1c3326' : '#fff', color: on ? '#fff' : '#1c3326', font: '600 13px Inter, system-ui, sans-serif', padding: '8px 16px', borderRadius: '99px' }
+            style: { cursor: 'pointer', border: '1px solid ' + (on ? '#1c3326' : '#d6d1c2'), background: on ? '#1c3326' : '#fff', color: on ? '#fff' : '#1c3326', font: '700 14px Carlito, Calibri, sans-serif', padding: '8px 16px', borderRadius: '99px' }
           }, d.label + ' · ' + d.w + 'px');
         }));
       return h('div', { style: { background: '#e9e6dc', minHeight: '100vh' } }, bar,
         h('div', { ref: function (el) { self.wrap = el; }, style: { padding: '16px 4px 40px' } },
           h('div', { style: { width: Math.round(dev.w * scale), height: Math.round(dev.h * scale), margin: '0 auto', overflow: 'hidden', borderRadius: isPhone ? 28 * scale : 10, boxShadow: '0 10px 40px -10px rgba(0,0,0,.35)', background: '#fff', border: isPhone ? '6px solid #14241b' : '1px solid #cfc9b6', boxSizing: 'content-box' } },
             h('iframe', { title: 'Voorbeeld', srcDoc: pageHtml(this.props), style: { width: dev.w, height: dev.h, border: 0, transform: 'scale(' + scale + ')', transformOrigin: 'top left', display: 'block', background: '#fff' } }))),
-        h('p', { style: { textAlign: 'center', font: '13px Inter, system-ui, sans-serif', color: '#5f685f', margin: '0 0 24px' } }, 'Zo ziet je bericht eruit zodra je op Publiceren klikt.'));
+        h('p', { style: { textAlign: 'center', font: '15px Carlito, Calibri, sans-serif', color: '#5f685f', margin: '0 0 24px' } }, 'Zo ziet je bericht eruit zodra je op Publiceren klikt.'));
     }
   });
 
