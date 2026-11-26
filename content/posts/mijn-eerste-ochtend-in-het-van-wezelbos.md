@@ -20,9 +20,11 @@ In de auto vertelden Chris en Thomas mij al over de verschillende werkzaamheden 
 
 **Aan de slag**
 
-Om iets over half negen kwamen wij bij de poort van de boswachter aan. Ik was al vijf jaar niet meer in het bos geweest, dus wist de weg niet meer te vinden, maar gelukkig zijn Chris en Thomas er de afgelopen vier jaar al zo vaak geweest dat zij de weg wel wisten. En toen ikhet geluid van de houtversnipperaar begon te horen, wist ik ook wel de weg te vinden. Anita en Guus waren samen met Johnny al hard bezig met het versnipperen van de al weggehaalde rododendrontakken. Dit was namelijk het taakje van de dag in het beheerplan.
+![](/img/20261114_101601.jpg)
 
-Geen tijd voor koffie: een korte knuffel aanmijn oom en tante en handschoenen aan. We moesten aan de slag. De afgelopenjaren zijn alle takken al op hoopjes gelegd, dus nu was het gewoon aangeven aanJohnny en versnipperen maar. Tak na tak werden de hoopjes steeds wat kleiner.Ondertussen waren Rik en Marian ook aangekomen, en om tien uur werd toch dekoffie geschonken en kwamen de gevulde koeken uit de tassen. Rond dezelfgebouwde tafel en stoelen kon ik weer even bijkletsen met de familie enhoorde ik over de vele plannen die er de komende jaren nog gaan komen voor hetbos. Helaas, een vijvertje gaat misschien nog even niet lukken. Wellicht overtien jaar.
+Om iets over half negen kwamen wij bij de poort van de boswachter aan. Ik was al vijf jaar niet meer in het bos geweest, dus wist de weg niet meer te vinden, maar gelukkig zijn Chris en Thomas er de afgelopen vier jaar al zo vaak geweest dat zij de weg wel wisten. En toen ik het geluid van de houtversnipperaar begon te horen, wist ik ook wel de weg te vinden. Anita en Guus waren samen met Johnny al hard bezig met het versnipperen van de al weggehaalde rododendrontakken. Dit was namelijk het taakje van de dag in het beheerplan.
+
+Geen tijd voor koffie: een korte knuffel aan mijn oom en tante en handschoenen aan. We moesten aan de slag. De afgelopen jaren zijn alle takken al op hoopjes gelegd, dus nu was het gewoon aangeven aan Johnny en versnipperen maar. Tak na tak werden de hoopjes steeds wat kleiner. Ondertussen waren Rik en Marian ook aangekomen, en om tien uur werd toch de koffie geschonken en kwamen de gevulde koeken uit de tassen. Rond de zelfgebouwde tafel en stoelen kon ik weer even bijkletsen met de familie en hoorde ik over de vele plannen die er de komende jaren nog gaan komen voor het bos. Helaas, een vijvertje gaat misschien nog even niet lukken. Wellicht over tien jaar.
 
 **Het stomste klusje?**
 
@@ -39,7 +41,5 @@ Om half twaalf waren ze al klaar met het versnipperen van alle takken en werd er
 Terwijl iedereen al aan het opruimen was om de rest van de dag voort te zetten, liepen Rik en ik nog even door het bos. Rik isde echte aanjager van het bos, dus hij kan je alles vertellen: van de kastanjeboompjes die als toekomstbomen zijn geplant tot de spirituele plek die Yvonne en Kim samen in het bos hebben uitgezocht.
 
 Het is een heel andere belevenis dan toen ik als klein meisje samen met mijn zussen en broertje naar het vijvertje rende, of tijdens de jaarlijkse Heselmans/Van Wezel-dag, waarop we gingen kuppen, familietegen familie. Maar één ding zal altijd in het bos blijven: de familie die het bos samen al zo lang levend houdt. Mijn opa plantte er zijn rododendrons, ik afgelopen zaterdag mijn eerste rode kornoelje, en wie weet wat de volgende generatie er ooit nog plant. Een plek waar mijn kinderen en de kinderen van mijn kinderen straks ook naartoe kunnen komen om samen herinneringen op te halen.
-
- 
 
 …. Maar één mysterie blijft: waar is die caravan toch begraven?
