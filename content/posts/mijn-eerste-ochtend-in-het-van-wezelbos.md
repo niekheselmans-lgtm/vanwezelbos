@@ -6,6 +6,8 @@ image: /img/20261114_100220.jpg
 ---
 Vier jaar geleden kwam de vraag in de familieapp wie zich wilde aansluiten bij de bosgroep voor het Van Wezel-bos. Het plan was namelijk om het bos toekomstbestendig te maken. Ik woonde destijds in Ierland, maar door het enthousiasme van de al deelnemende familieleden meldde ik mij toch aan om te helpen met het plan van aanpak. Door de afstand en het net beginnen met een nieuwe baan glipte mijn deelname er toch een beetje bij in. Maar vier jaar lang bleef ik hopen dat ik eindelijk eens deel kon nemen aan een ochtend in het bos. En afgelopen zaterdag was het dan eindelijk zover.
 
+*Door Susan Donders*
+
 **Vroeg op pad**
 
 Om half zeven ging mijn wekker al. Vanuit het werken in de bouw ben ik wel gewend om vroege ochtenden te draaien. Het ging deze ochtend zelfs wat makkelijker dan mijn normale werkdagen. Misschien was het wel omdat ik eindelijk na vijf jaar weer eens terugging naar het bos en de weersvoorspellingen waren een 10.
