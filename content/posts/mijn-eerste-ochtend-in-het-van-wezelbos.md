@@ -1,11 +1,9 @@
 ---
 category: werkzaamheden
 date: 2026-11-14
-title: Mijn eerste ochtend in het van Wezelbos
+title: Mijn eerste werk-ochtend in het van Wezelbos
 image: /img/20261114_100220.jpg
 ---
-*Door Susan*
-
 Vier jaar geleden kwam de vraag in de familieapp wie zich wilde aansluiten bij de bosgroep voor het Van Wezel-bos. Het plan was namelijk om het bos toekomstbestendig te maken. Ik woonde destijds in Ierland, maar door het enthousiasme van de al deelnemende familieleden meldde ik mij toch aan om te helpen met het plan van aanpak. Door de afstand en het net beginnen met een nieuwe baan glipte mijn deelname er toch een beetje bij in. Maar vier jaar lang bleef ik hopen dat ik eindelijk eens deel kon nemen aan een ochtend in het bos. En afgelopen zaterdag was het dan eindelijk zover.
 
 **Vroeg op pad**
