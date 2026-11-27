@@ -79,10 +79,10 @@ body.home .site-header:not(.solid) .nav-toggle{color:#fff}
 .about-img img{width:100%;height:100%;object-fit:cover;object-position:35% 50%}
 .about h2,.news h2{font-size:clamp(1.9rem,4vw,3rem);margin-bottom:24px}
 .about p{margin-bottom:18px;color:#2f382f}
-.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}
-.pillars li{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:16px}
-.pillars b{display:block;font:700 1.2rem var(--serif);color:var(--forest);margin-bottom:4px}
-.pillars span{font-size:.88rem;color:var(--muted);line-height:1.45;display:block}
+.pillars{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:30px}
+.pillars li{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:18px 20px}
+.pillars b{display:block;font:700 1.2rem var(--serif);color:var(--forest);margin-bottom:8px}
+.pillars span{font-size:.98rem;color:var(--muted);line-height:1.55;word-spacing:.08em;letter-spacing:.01em;display:block}
 
 /* News */
 .news{padding:clamp(60px,8vw,110px) 0;background:var(--paper);border-block:1px solid var(--line)}
