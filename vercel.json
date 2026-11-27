@@ -1,6 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "buildCommand": "pip3 install --user -q pillow || true; python3 scripts/build.py",
+  "buildCommand": "python3 -m pip install -q --target .pydeps pillow || pip3 install -q --target .pydeps pillow || true; PYTHONPATH=.pydeps python3 scripts/build.py",
   "outputDirectory": "public",
   "cleanUrls": true,
   "redirects": [
