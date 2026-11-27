@@ -255,7 +255,7 @@ def home():
       <figcaption>Boswerkers aan de slag: de eerste boompjes de grond in, 7 december 2025</figcaption>
     </figure>
     <div class="about-text reveal">
-      <p class="eyebrow dark">Over het bos</p>
+      <p class="eyebrow dark">Een familiebos in transitie</p>
       <h2>Van mijnhout naar loofbos vol leven</h2>
       <p>Het Van Wezelbos is al bijna een eeuw een deel van onze familiegeschiedenis. Wat ooit begon als een aangeplant dennenbos voor de mijnbouw, willen we de komende decennia geleidelijk omvormen tot een gezond, klimaatbestendig loofbos vol leven.</p>
       <p>Onze visie gaat verder dan alleen het planten van bomen. We willen biodiversiteit vergroten, ruimte geven aan vogels, insecten en planten, maar ook aan stilte, verwondering en educatie. Het bos wordt een gemeenschappelijke plek: een plek waar jong en oud de natuur leren kennen, een ontmoetingsplek voor familie en vrienden, en een erfgoed dat we zorgvuldig doorgeven.</p>
