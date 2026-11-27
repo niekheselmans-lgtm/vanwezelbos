@@ -145,7 +145,7 @@ posts = sorted((parse_post(p) for p in (ROOT / "content/posts").glob("*.md")),
 
 
 # -------------------------------------------------------------------- layout
-def layout(title, body, *, path, desc=DESC, image="/img/toekomstbomen-1.jpg", home=False, og="website"):
+def layout(title, body, *, path, desc=DESC, image="/img/homepage.jpg", home=False, og="website"):
     full_title = NAME if home else f"{title} — {NAME}"
     return f"""<!doctype html>
 <html lang="nl">
@@ -159,7 +159,7 @@ def layout(title, body, *, path, desc=DESC, image="/img/toekomstbomen-1.jpg", ho
 <meta property="og:locale" content="nl_NL">
 <meta property="og:title" content="{e(full_title)}">
 <meta property="og:description" content="{e(desc)}">
-<meta property="og:image" content="{SITE}{image}">
+<meta property="og:image" content="{SITE}{opt(image, 1200)}">
 <meta property="og:url" content="{SITE}{path}">
 <meta name="theme-color" content="#1c3326">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
