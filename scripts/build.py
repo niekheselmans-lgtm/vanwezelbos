@@ -223,7 +223,7 @@ def home():
     cards = "\n".join(card(p) for p in posts[:3])
     body = f"""
 <section class="hero">
-  <img src="{opt('/img/toekomstbomen-1.jpg', 1800)}" alt="Rododendrons en dennen in het Van Wezelbos" fetchpriority="high">
+  <img src="{opt('/img/homepage.jpg', 1800)}" alt="Dennen en rododendrons in het Van Wezelbos" fetchpriority="high">
   <div class="hero-shade"></div>
   <div class="wrap hero-in">
     <p class="eyebrow">Beheerplan 2024–2050</p>
