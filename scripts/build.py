@@ -253,7 +253,7 @@ def home():
     </div>
     <div class="about-text reveal">
       <p class="eyebrow dark">Over het bos</p>
-      <h2>Bijna een eeuw familiegeschiedenis, nu met een blik op de toekomst</h2>
+      <h2>Van mijnhout naar loofbos vol leven</h2>
       <p>Het Van Wezelbos is al bijna een eeuw een deel van onze familiegeschiedenis. Wat ooit begon als een aangeplant dennenbos voor de mijnbouw, willen we de komende decennia geleidelijk omvormen tot een gezond, klimaatbestendig loofbos vol leven.</p>
       <p>Onze visie gaat verder dan alleen het planten van bomen. We willen biodiversiteit vergroten, ruimte geven aan vogels, insecten en planten, maar ook aan stilte, verwondering en educatie. Het bos wordt een gemeenschappelijke plek: een plek waar jong en oud de natuur leren kennen, een ontmoetingsplek voor familie en vrienden, en een erfgoed dat we zorgvuldig doorgeven.</p>
       <ul class="pillars">
