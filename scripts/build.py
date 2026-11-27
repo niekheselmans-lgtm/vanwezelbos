@@ -248,9 +248,12 @@ def home():
 
 <section class="about" id="over-het-bos">
   <div class="wrap split">
-    <div class="about-img reveal">
-      <img src="{opt('/img/boompjes-planten-1.jpg', 1200)}" alt="Vrijwilligers tijdens een plantdag in het bos" loading="lazy">
-    </div>
+    <figure class="about-fig reveal">
+      <div class="about-img">
+        <img src="{opt('/img/boompjes-planten-1.jpg', 1200)}" alt="Vrijwilligers tijdens een plantdag in het bos" loading="lazy">
+      </div>
+      <figcaption>Boswerkers aan de slag: de eerste boompjes de grond in, 7 december 2025</figcaption>
+    </figure>
     <div class="about-text reveal">
       <p class="eyebrow dark">Over het bos</p>
       <h2>Van mijnhout naar loofbos vol leven</h2>
